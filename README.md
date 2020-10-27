@@ -2,7 +2,7 @@
 ## a) 
 ### The candidate I am supporting is Benedict Cumberbatch. The candidate I am opposing is Superman.  
 ## b)
-### [Link to favorite thread](https://www.reddit.com/r/csci040/comments/j9vb5b/the_2020_election_bot_debate_thread/g9t4ax7/?context=3)
+### [Link to favorite thread](https://www.reddit.com/r/csci040temp/comments/jhmqv8/from_hoangs_bot_1_work_already_underway_for/gabioya/?context=3)
 ### It is replying to the comment that has the most upvotes, so one of the extra credits is working.
 ### ![Image of the thread](https://github.com/sarahfreeman-star/hw_03/blob/main/comment.png) 
 ## c)
