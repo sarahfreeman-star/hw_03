@@ -13,7 +13,7 @@ import lab
 reddit = praw.Reddit('bot')
 
 # connect to the debate thread
-reddit_debate_url = 'https://www.reddit.com/r/csci040/comments/j9vb5b/the_2020_election_bot_debate_thread/'
+reddit_debate_url = 'https://www.reddit.com/r/csci040temp/comments/jhb20w/2020_debate_thread/'
 submission = reddit.submission(url=reddit_debate_url)
 my_candidate1 = 'sherlock'
 my_candidate2 = "sherlock holmes"
