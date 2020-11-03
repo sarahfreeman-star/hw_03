@@ -86,7 +86,7 @@ while True:
                 comment.upvote()
             elif TextBlob(comment.body).sentiment.polarity < 0:
                 comment.downvote()
-    for sub in reddit.subreddit("csci040").new(limit=None):
+    for sub in reddit.subreddit("csci040temp").new(limit=None):
         if my_candidate1.lower() in sub.title.lower() and my_candidate2.lower() in sub.title.lower() and my_candidate3.lower() in sub.title.lower() and my_candidate4.lower() in sub.title.lower() and my_candidate5.lower() in sub.title.lower():
             if TextBlob(sub.title).sentiment.polarity > 0:
                 sub.upvote()
@@ -99,7 +99,7 @@ while True:
                 comment.downvote()
             elif TextBlob(comment.body).sentiment.polarity < 0:
                 comment.upvote()
-    for sub in reddit.subreddit("csci040").new(limit=None):
+    for sub in reddit.subreddit("csci040temp").new(limit=None):
         if other_candidate.lower() in comment.body.lower():
             if TextBlob(sub.title).sentiment.polarity > 0:
                 sub.downvote()
@@ -175,7 +175,7 @@ while True:
         to_reply.reply(generated)
 
     ###################################### EXTRA CREDIT: UPVOTE SUBMISSION IF CANDIDATE MENTIONED ######################################
-    subreddit  = reddit.subreddit("csci040")
+    subreddit  = reddit.subreddit("csci040temp")
     for sub in subreddit.new(limit=None):
         if my_candidate1.lower() in sub.title.lower() and my_candidate2.lower() in sub.title.lower() and my_candidate3.lower() in sub.title.lower() and my_candidate4.lower() in sub.title.lower() and my_candidate5.lower() in sub.title.lower():
             sub.upvote()
